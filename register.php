@@ -30,6 +30,7 @@
                 <input type="password" name="password2" placeholder="Confirm Password" id="password2" required>
                 <input type="submit" name="submit" class="button" value="Sign Up">
             </form>
+            <a href="login.php" class="signInMessage">Already have an account? Sign in here.</a>
         </div>
     </div>
 </body>
