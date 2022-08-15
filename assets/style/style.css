@@ -1,0 +1,27 @@
+:root{
+    --main-bg: rgb(173, 173, 173);
+    --sec-bg: rgb(220, 220, 220);
+    
+}
+
+html, body{
+    background-color: var(--main-bg);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.signInContainer{
+    background-color: var(--main-bg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    background-color: var(--sec-bg);
+    min-height: 300px;
+    max-height: 100%;
+    width: 450px;
+    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
